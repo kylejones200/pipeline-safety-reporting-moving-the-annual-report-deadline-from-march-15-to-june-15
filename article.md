@@ -1,72 +1,45 @@
+---
+author: "Kyle Jones"
+date_published: "July 31, 2025"
+date_exported_from_medium: "November 10, 2025"
+canonical_link: "https://medium.com/@kyle-t-jones/pipeline-safety-reporting-moving-the-annual-report-deadline-from-march-15-to-june-15-d71506702a60"
+---
+
 # Pipeline Safety Reporting: Moving the Annual Report Deadline from March 15 to June 15 In June 2025, the Pipeline and Hazardous Materials Safety Administration
 (PHMSA) announced a proposal to move the annual report filing...
 
-::::::::### Pipeline Safety Reporting: Moving the Annual Report Deadline from March 15 to June 15 
+### Pipeline Safety Reporting: Moving the Annual Report Deadline from March 15 to June 15 
 
-In June 2025, the Pipeline and Hazardous Materials Safety Administration
-(PHMSA) announced a proposal to move the annual report filing deadline
-for gas pipelines and underground natural gas storage from March 15 to
-June 15, aligning gas operators with hazardous liquid pipeline
-requirements. This regulatory change aims to reduce compliance costs and
-relieve unnecessary operational pressure without compromising safety.
+In June 2025, the Pipeline and Hazardous Materials Safety Administration (PHMSA) announced a proposal to move the annual report filing deadline for gas pipelines and underground natural gas storage from March 15 to June 15, aligning gas operators with hazardous liquid pipeline requirements. This regulatory change aims to reduce compliance costs and relieve unnecessary operational pressure without compromising safety.
 
-The March 15 annual report deadline has been in place since 1984, a
-period when the required filings were far simpler (87 FR 18956). The
-original gas distribution report was two pages; the gas transmission
-form was just one page. Today, these forms run for up to 22 pages and
-require a far more detailed accounting of assets, operations, and
-incidents. Over four decades, the reporting task has expanded while the
-time to comply has not.
+The March 15 annual report deadline has been in place since 1984, a period when the required filings were far simpler (87 FR 18956). The original gas distribution report was two pages; the gas transmission form was just one page. Today, these forms run for up to 22 pages and require a far more detailed accounting of assets, operations, and incidents. Over four decades, the reporting task has expanded while the time to comply has not.
 
-An analysis of seven years of underground natural gas storage report
-filings shows a pronounced surge in submissions in mid-March --- just
-before the current deadline. 78.1% of all PHMSA annual underground
-natural gas reports are filed between March 1 and March 15.
+An analysis of seven years of underground natural gas storage report filings shows a pronounced surge in submissions in mid-March --- just before the current deadline. 78.1% of all PHMSA annual underground natural gas reports are filed between March 1 and March 15.
 
 #### Annual Report Filing Timeline (2018--2025)
 
 
-<figcaption><em>Monthly filings over seven years, showing annual spikes
-in March</em></figcaption>
+<figcaption><em>Monthly filings over seven years, showing annual spikes in March</em></figcaption>
 
 
 #### Daily Filings for February--March
 
 
-<figcaption><em>Daily histogram for February and March across all years,
-with the deadline marked</em></figcaption>
+<figcaption><em>Daily histogram for February and March across all years, with the deadline marked</em></figcaption>
 
 
-It looks like people who have to read these reports don't get to enjoy
-spring break.
+It looks like people who have to read these reports don't get to enjoy spring break.
 
-PHMSA already provides a six-month window for hazardous liquid and CO2
-pipelines to file annual reports. Aligning gas and storage reporting
-with this standard removes unnecessary regulatory differences and
-administrative confusion.
+PHMSA already provides a six-month window for hazardous liquid and CO2 pipelines to file annual reports. Aligning gas and storage reporting with this standard removes unnecessary regulatory differences and administrative confusion.
 
-The expanded reporting forms disproportionately burden smaller
-operators, who often lack the staff to spread reporting tasks across
-multiple teams. For these entities, the extra three months could mean
-the difference between a manageable process and one that requires
-expensive outside help.
+The expanded reporting forms disproportionately burden smaller operators, who often lack the staff to spread reporting tasks across multiple teams. For these entities, the extra three months could mean the difference between a manageable process and one that requires expensive outside help.
 
-The data are clear: most pipeline operators file their annual reports as
-close to the March 15 deadline as possible. Extending the deadline to
-June 15 provides tangible benefits --- lower compliance costs, improved
-data quality, and a more consistent regulatory environment --- without
-any identified downside for public safety.
+The data are clear: most pipeline operators file their annual reports as close to the March 15 deadline as possible. Extending the deadline to June 15 provides tangible benefits --- lower compliance costs, improved data quality, and a more consistent regulatory environment --- without any identified downside for public safety.
 
-PHMSA's proposed rule, Pipeline Safety: Adjust Annual Report Filing
-Timelines (Docket No. PHMSA--2025--0108; RIN 2137--AF77), is a
-pragmatic, evidence-based step that modernizes regulatory practice for a
-more complex energy landscape.
-::::### Appendix: Data and Replication Code 
+PHMSA's proposed rule, Pipeline Safety: Adjust Annual Report Filing Timelines (Docket No. PHMSA--2025--0108; RIN 2137--AF77), is a pragmatic, evidence-based step that modernizes regulatory practice for a more complex energy landscape.
+### Appendix: Data and Replication Code 
 
-Below is the full Python code to reproduce the time series and daily
-filing histogram from the empirical analysis. This code uses [public
-filings data from
-2017--2025](https://www.phmsa.dot.gov/data-and-statistics/pipeline/gas-distribution-gas-gathering-gas-transmission-hazardous-liquids).
+Below is the full Python code to reproduce the time series and daily filing histogram from the empirical analysis. This code uses [public filings data from 2017--2025](https://www.phmsa.dot.gov/data-and-statistics/pipeline/gas-distribution-gas-gathering-gas-transmission-hazardous-liquids).
 
 ```python
 import pandas as pd
@@ -114,16 +87,7 @@ plt.tight_layout()
 plt.savefig('initial_reports_feb_mar_all_years.png')
 plt.show()
 ```
-::::**References**
+**References**
 
-- Pipeline and Hazardous Materials Safety Administration. *Pipeline
-  Safety: Adjust Annual Report Filing Timelines*. 49 CFR Part 191.
-  Docket No. PHMSA--2025--0108; RIN 2137--AF77. July 1, 2025.
+- Pipeline and Hazardous Materials Safety Administration. *Pipeline Safety: Adjust Annual Report Filing Timelines*. 49 CFR Part 191. Docket No. PHMSA--2025--0108; RIN 2137--AF77. July 1, 2025.
 - Federal Register Vol. 90, №124 / Tuesday, July 1, 2025.
-::::::::::::::::By [Kyle Jones](https://medium.com/@kyle-t-jones) on
-[July 31, 2025](https://medium.com/p/d71506702a60).
-
-[Canonical
-link](https://medium.com/@kyle-t-jones/pipeline-safety-reporting-moving-the-annual-report-deadline-from-march-15-to-june-15-d71506702a60)
-
-Exported from [Medium](https://medium.com) on November 10, 2025.
