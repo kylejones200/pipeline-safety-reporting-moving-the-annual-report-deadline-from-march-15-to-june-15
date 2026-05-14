@@ -87,7 +87,7 @@ plt.tight_layout()
 plt.savefig('initial_reports_feb_mar_all_years.png')
 plt.show()
 ```
-**References**
+References
 
 - Pipeline and Hazardous Materials Safety Administration. *Pipeline Safety: Adjust Annual Report Filing Timelines*. 49 CFR Part 191. Docket No. PHMSA--2025--0108; RIN 2137--AF77. July 1, 2025.
 - Federal Register Vol. 90, №124 / Tuesday, July 1, 2025.
