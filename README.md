@@ -11,14 +11,7 @@ The March 15 annual report deadline has been in place since 1984, a period when 
 
 An analysis of seven years of underground natural gas storage report filings shows a pronounced surge in submissions in mid-March --- just before the current deadline. 78.1% of all PHMSA annual underground natural gas reports are filed between March 1 and March 15.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
